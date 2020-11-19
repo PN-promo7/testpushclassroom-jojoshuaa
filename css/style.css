@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Domine', sans-serif;
+  border: 1px solid black;
+}
+
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.logo-nav img {
+  width: 150px;
+}
+
+.icone-nav, i{
+  justify-content: space-between;
+  margin-left: 10px;
+  font-size: 28px;
+}
+
+.hero-header {
+  background-image: url("../image/image-accueil.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 30px;
+  padding-top: 0px;
+  padding-bottom: 660px;
+}
+
+article img{
+  width: 200px;
+}
+
+
+.article1 img {
+  padding-top: 290px;
+  margin: 50px;
+  flex-direction: column-reverse;
+  width: 15%;
+}
+
+.article {
+  padding: 15px 20px;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+/*div {
+  border: 1px solid black;
+}*/
+ul {
+  display: flex;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  flex-wrap: wrap;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Marck Script', cursive;
+  padding-top: 10px;
+  padding-bottom: 150px;
+  font-size: 25px;
+  margin-top: 250px;
+}
+
+.article1 h2 {
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 10%;
+  text-align: end;
+}
+
+h2 {
+  width: 703px;
+  height: 72px;
+  font-family: 'Doppio one', sans-serif;
+  color: #000000;
+  text-align: end;
+}
+
+h3 {
+  padding-right: 10%;
+}
+
+h4 {}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.highlight {
+  /* width: 805px; */
+  font-family: 'Doppio One', sans-serif;
+  font-size: 80px;
+  color: #FFFFFF;
+  text-align: center;
+  background-image: url("../image/incontournable-bleu.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 1px;
+  border-radius: 25px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: -91px;
+  margin-right: -90px;
+}
+
+.fleur-blanche{
+background-image: url("../image/fleurblanche.jpg");
+width:30px;
+height: 30px;
+padding: 10px;
+background-position: left;
+background-repeat: no-repeat;
+margin-bottom: 10px;
+margin: 0px auto;
+
+}
+
+article .articlebtn {
+    display: block;
+}
+
+.articlebtn {
+    background-color: #4F5D75;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.clearfix {
+  clear: both;
+}
