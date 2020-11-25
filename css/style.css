@@ -52,8 +52,9 @@ article img{
 }
 
 section {
-  margin-bottom: 100px;
+  margin-bottom: 1px;
 }
+
 
 /*div {
   border: 1px solid black;
@@ -116,6 +117,7 @@ h4 {}
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .highlight {
@@ -135,6 +137,7 @@ h4 {}
   margin-left: -91px;
   margin-right: -90px;
 }
+
 
 .fleur-blanche{
 background-image: url("../image/fleurblanche.jpg");
@@ -163,6 +166,155 @@ article .articlebtn {
     text-transform: uppercase;
 }
 
-.clearfix {
-  clear: both;
+.promo{
+  background-color: #C4C4C4;
+  background-image:url('../image/livre-reduction.jpg');
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  background-attachment:fixe;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  margin-left: -90px;
+  margin-right: -90px;
+}
+
+.button_promo{
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #477BFF;
+  display: inline-block;
+  padding: 30px 100px;
+  border: 5px solid white;
+  margin-top: 30px;
+  margin-left: 35%;
+}
+
+.button_promo a{
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.button_promo a:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+.align_content_footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer{
+  background-color: #05314C;
+
+}
+
+.col_footer{
+  width: 22%;
+}
+
+.align_icone_footer{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.align_icone_footer img{
+  padding-left: 10px;
+}
+
+footer input.nl_input{
+  padding: 5px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+footer h4{
+  color: white;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+.black{
+  color: black;
+}
+
+i{
+font-size: 20px;
+}
+
+.end{
+  width: 1442px;
+  background-color: #05314C;
+
+}
+
+.connection{
+  background-color: #BF1212;
+}
+
+span{
+color: #EE9A1B;
+}
+
+.promo p{
+font-size: 35px;
+}
+
+.rouge{
+  background-color:#F85B5B;
+}
+
+.rougeatre{
+  background-color: #CE3B3A;
+}
+
+.white{
+  color: white;
+}
+
+.end .white p{
+  padding-left: 0px;
+  margin-left: -200px;
+}
+
+
+.google{
+  width: 200px;
+}
+
+.apple{
+  width: 170px;
+}
+
+.ancreBas{
+   display: inline-block;
+   position: fixed;
+   bottom: 0px;
+   right: 0px;
+   opacity: 0.5;
+   z-index: 1;
+ }
+
+.ancreHaut{
+  display: inline-block;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  opacity: 0.5;
+  z-index: 1;
 }
