@@ -1,0 +1,26 @@
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  /* Smartphones (portrait and landscape) ----------- */
+/* Styles */
+.container{
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+body html{
+  width: 100%;
+}
+
+nav .main-navigation{
+  display: none;
+}
+
+nav .main-navigation> a{
+
+}
+
+h2{
+  text-align: left;
+}
