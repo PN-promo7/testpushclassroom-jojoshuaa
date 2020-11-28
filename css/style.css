@@ -8,6 +8,11 @@ body {
   border: 1px solid black;
 }
 
+nav a{
+  color: black;
+  font-size: 16px;
+}
+
 nav .container {
   display: flex;
   align-items: center;
@@ -22,7 +27,7 @@ nav .container {
 .icone-nav, i{
   justify-content: space-between;
   margin-left: 10px;
-  font-size: 28px;
+  font-size: 50px;
 }
 
 .hero-header {
@@ -33,6 +38,10 @@ nav .container {
   margin-bottom: 30px;
   padding-top: 0px;
   padding-bottom: 660px;
+}
+
+header span{
+  color: #4D5061;
 }
 
 article img{
@@ -54,7 +63,6 @@ article img{
 section {
   margin-bottom: 1px;
 }
-
 
 /*div {
   border: 1px solid black;
@@ -164,6 +172,10 @@ article .articlebtn {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.discount{
+  color: black;
 }
 
 .promo{
@@ -279,6 +291,11 @@ font-size: 35px;
   background-color:#F85B5B;
 }
 
+.rougeatre p{
+  margin-right: -10px;
+  margin-top: 35px;
+}
+
 .rougeatre{
   background-color: #CE3B3A;
 }
@@ -289,9 +306,16 @@ font-size: 35px;
 
 .end .white p{
   padding-left: 0px;
-  margin-left: -200px;
+  margin-left: -180px;
 }
 
+.end .comment{
+  padding-left: 30px;
+}
+
+.end .align_content_footer{
+    margin-right: -200px;
+}
 
 .google{
   width: 200px;
@@ -301,14 +325,7 @@ font-size: 35px;
   width: 170px;
 }
 
-.ancreBas{
-   display: inline-block;
-   position: fixed;
-   bottom: 0px;
-   right: 0px;
-   opacity: 0.5;
-   z-index: 1;
- }
+
 
 .ancreHaut{
   display: inline-block;
@@ -317,4 +334,22 @@ font-size: 35px;
   right: 0px;
   opacity: 0.5;
   z-index: 1;
+
+}
+
+footer .fab{
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+.connect{
+  margin-right: -70px;
+}
+.trio{
+  margin-right: -144px;
+}
+
+.fa-arrow-up, .fa-arrow-down{
+  color: aliceblue;
+  background-color: grey;
 }
